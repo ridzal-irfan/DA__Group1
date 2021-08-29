@@ -13,7 +13,6 @@ h = requests.head(url)
 print("Status code: ", r.status_code)
 #printing header
 print("__________HEADER__________")
-print(headers2)
 #for loop to print line by line, formatting
 for x in h.headers:
     print(x, ":", h.headers[x])
