@@ -2,7 +2,7 @@ import requests
 import scrapy
 
 #setting url variable to given website
-url = 'https://www.wikipedia.org'
+url = 'https://brickset.com/sets/year-1998'
 
 headers2 = {'User-Agent':'Mobile'}
 #for status code
